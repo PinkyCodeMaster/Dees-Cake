@@ -36,6 +36,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Drizzle
+/drizzle/*.db
+/drizzle/*.sqlite
+/drizzle/.env
+/drizzle/*
+drizzle/meta/_journal.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
